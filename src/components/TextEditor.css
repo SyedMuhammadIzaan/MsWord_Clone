@@ -1,0 +1,53 @@
+.text-editor {
+  padding: 10px;
+}
+.left{
+  text-align:left;
+}
+
+.center{
+  text-align:center;
+}
+
+.right{
+  text-align:right;
+}
+/* .text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+} */
+
+.public-DraftStyleDefault-block[data-text-align="left"] {
+  text-align: left;
+}
+
+.public-DraftStyleDefault-block[data-text-align="center"] {
+  text-align: center;
+}
+
+.public-DraftStyleDefault-block[data-text-align="right"] {
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+  .text-editor {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-editor {
+    font-size: 12px;
+  }
+}
+
+.hello{
+  background: lightblue;
+}
